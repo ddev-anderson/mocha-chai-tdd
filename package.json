@@ -1,0 +1,19 @@
+{
+  "name": "mocha-chai-tdd",
+  "version": "1.0.0",
+  "description": "mocha and chai tdd",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "test": "mocha ../test/calculator-test.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0"
+  }
+}
